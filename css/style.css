@@ -1,0 +1,70 @@
+/* Malhar's awesome form styles */
+
+.mcf-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9 !important; /* Make sure this background color is applied */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.mcf-form-group {
+  margin-bottom: 15px;
+}
+
+.mcf-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Darker text for labels */
+}
+
+.mcf-form-group input[type="text"],
+.mcf-form-group input[type="email"],
+.mcf-form-group textarea {
+  width: 100% !important; /* Force full width */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Larger font size for inputs */
+}
+
+.mcf-form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.mcf-form button {
+  background-color: #4caf50;
+  color: white !important; /* Make sure text is white */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mcf-form button:hover {
+  background-color: #45a049;
+}
+
+#mcf-response {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#mcf-response.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+#mcf-response.error {
+  background-color: #f2dede !important; /* Make sure error background is applied */
+  color: #a94442;
+}
+
+/* TODO: Add styles for form validation */
